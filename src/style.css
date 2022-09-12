@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: rgb(4, 18, 30);
+}
+.container{
+    height: 100vh;
+    display: grid;
+    /* justify-content: center; */
+    place-items: center;
+}
+.heading, p{
+    font-size: 70px;
+    color: white;
+    transition: transform .2s;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.heading:hover{
+    transform: scale(1.5);
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: hard-light;
+}
